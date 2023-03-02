@@ -10,7 +10,7 @@ const months = [
 	'July',
 	'August',
 	'September',
-	'Octomber',
+	'October',
 	'November',
 	'December'
 ];
@@ -179,7 +179,7 @@ upload.addEventListener('click', () => {
 
 });
 
-// error occur when assign more mood to data, save data, then upload
+
 input.onchange = function() {
 	const data = input.files[0];
 	var reader = new FileReader();
